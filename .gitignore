@@ -1,2 +1,5 @@
 media/
 app/etc/local.xml
+var/
+.gitignore
+.idea/
