@@ -1,0 +1,427 @@
+<layout>
+    <name>1_column_full</name>
+	<header>header4</header>
+	<footer>footer4</footer>
+	
+	<!-- Theme Color -->
+	<!-- Theme Color -->
+ <theme_color_header>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[]]></top_text_color>
+  <top_link_color><![CDATA[#a6a6a6]]></top_link_color>
+  <top_link_hover_color><![CDATA[]]></top_link_hover_color>
+  <top_dropdown_background><![CDATA[]]></top_dropdown_background>
+  <top_dropdown_link><![CDATA[]]></top_dropdown_link>
+  <top_dropdown_link_hover><![CDATA[#fa713a]]></top_dropdown_link_hover>
+  <top_dropdown_border><![CDATA[]]></top_dropdown_border>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text><![CDATA[]]></middle_text>
+  <search_background><![CDATA[]]></search_background>
+  <search_text_color><![CDATA[]]></search_text_color>
+  <search_link_color><![CDATA[]]></search_link_color>
+  <search_link_hover_color><![CDATA[]]></search_link_hover_color>
+  <search_input_color><![CDATA[]]></search_input_color>
+  <search_icon_color><![CDATA[]]></search_icon_color>
+  <search_dropdown_background><![CDATA[]]></search_dropdown_background>
+  <search_dropdown_hover_background><![CDATA[]]></search_dropdown_hover_background>
+  <search_dropdown_text_color><![CDATA[]]></search_dropdown_text_color>
+  <search_dropdown_text_hover_color><![CDATA[]]></search_dropdown_text_hover_color>
+  <cart_text_color><![CDATA[]]></cart_text_color>
+  <cart_price_color><![CDATA[]]></cart_price_color>
+  <cart_icon_background><![CDATA[]]></cart_icon_background>
+  <cart_number_background><![CDATA[]]></cart_number_background>
+  <cart_number_text><![CDATA[]]></cart_number_text>
+  <menu_background><![CDATA[]]></menu_background>
+  <menu_background_hover><![CDATA[]]></menu_background_hover>
+  <menu_link_color><![CDATA[#fa713a]]></menu_link_color>
+  <menu_link_hover_color><![CDATA[]]></menu_link_hover_color>
+  <menu_border_color><![CDATA[]]></menu_border_color>
+ </theme_color_header>
+ <theme_color_main>
+  <use_custom>1</use_custom>
+  <default_color>#fa713a</default_color>
+  <color><![CDATA[]]></color>
+  <price_color><![CDATA[]]></price_color>
+  <link_color><![CDATA[]]></link_color>
+  <link_hover_color><![CDATA[#fa713a]]></link_hover_color>
+  <button_color><![CDATA[]]></button_color>
+  <button_hover_color><![CDATA[]]></button_hover_color>
+  <button_background><![CDATA[]]></button_background>
+  <button_hover_background>#fa713a</button_hover_background>
+  <button_border_color><![CDATA[]]></button_border_color>
+  <button_border_hover_color>#fa713a</button_border_hover_color>
+  <button_one_color><![CDATA[]]></button_one_color>
+  <button_one_hover_color><![CDATA[]]></button_one_hover_color>
+  <button_one_background><![CDATA[]]></button_one_background>
+  <button_one_hover_background>#fa713a</button_one_hover_background>
+  <button_one_border><![CDATA[]]></button_one_border>
+  <button_one_border_hover>#fa713a</button_one_border_hover>
+  <button_two_color><![CDATA[]]></button_two_color>
+  <button_two_hover_color><![CDATA[]]></button_two_hover_color>
+  <button_two_background><![CDATA[#fa713a]]></button_two_background>
+  <button_two_hover_background><![CDATA[]]></button_two_hover_background>
+  <button_two_border><![CDATA[#fa713a]]></button_two_border>
+  <button_two_border_hover><![CDATA[]]></button_two_border_hover>
+ </theme_color_main>
+ <theme_color_footer>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[]]></top_text_color>
+  <top_heading_color><![CDATA[]]></top_heading_color>
+  <top_link_color><![CDATA[]]></top_link_color>
+  <top_link_hover_color><![CDATA[]]></top_link_hover_color>
+  <top_icon_color><![CDATA[]]></top_icon_color>
+  <top_border_color><![CDATA[]]></top_border_color>
+  <top_input_background><![CDATA[]]></top_input_background>
+  <top_input_border><![CDATA[]]></top_input_border>
+  <top_input_color><![CDATA[]]></top_input_color>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text_color><![CDATA[]]></middle_text_color>
+  <middle_heading_color><![CDATA[]]></middle_heading_color>
+  <middle_link_color><![CDATA[]]></middle_link_color>
+  <middle_link_hover_color><![CDATA[#fa713a]]></middle_link_hover_color>
+  <middle_icon_color><![CDATA[]]></middle_icon_color>
+  <middle_border_color><![CDATA[]]></middle_border_color>
+  <middle_input_background><![CDATA[]]></middle_input_background>
+  <middle_input_border><![CDATA[]]></middle_input_border>
+  <middle_input_color><![CDATA[]]></middle_input_color>
+  <bottom_background><![CDATA[]]></bottom_background>
+  <bottom_text_color><![CDATA[]]></bottom_text_color>
+  <bottom_heading_color><![CDATA[]]></bottom_heading_color>
+  <bottom_link_color><![CDATA[#fa713a]]></bottom_link_color>
+  <bottom_link_hover_color><![CDATA[]]></bottom_link_hover_color>
+  <bottom_icon_color><![CDATA[]]></bottom_icon_color>
+  <bottom_border_color><![CDATA[]]></bottom_border_color>
+ </theme_color_footer>
+
+ <custom_style>
+  <style><![CDATA[]]></style>
+ </custom_style>
+
+    <!--  Blocks  -->
+    <block>
+        <name>block29</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[slider-fashion]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+	
+    <block>
+        <name>block30</name>
+        <block_cols><![CDATA[6, 6]]></block_cols>
+        <block_class><![CDATA[["col-sm-6 col-xs-12","col-sm-6 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[fashion-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>2</block_position>
+    </block>
+	
+    <block>
+        <name>block31</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[60]]></padding_top>
+        <padding_bottom><![CDATA[47]]></padding_bottom>
+        <block_position>3</block_position>
+    </block>
+	
+	<block>
+        <name>block32</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[shoes-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_deals.jpg]]></background_image>
+        <background_repeat>1</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>4</block_position>
+    </block>
+	
+	<block>
+        <name>block33</name>
+        <block_cols><![CDATA[4,4,4]]></block_cols>
+        <block_class><![CDATA[["col-sm-6 col-xs-12","col-sm-6 col-xs-12","col-sm-12 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[shoes-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[85]]></padding_top>
+        <padding_bottom><![CDATA[30]]></padding_bottom>
+        <block_position>5</block_position>
+    </block>
+	
+	<block>
+        <name>block34</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[brga-brands]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_brands_shoes.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[90]]></padding_top>
+        <padding_bottom><![CDATA[90]]></padding_bottom>
+        <block_position>6</block_position>
+    </block>
+	
+	<block>
+        <name>block36</name>
+        <block_cols><![CDATA[4,4,4]]></block_cols>
+        <block_class><![CDATA[["col-sm-4 col-xs-12","col-sm-4 col-xs-12","col-sm-4 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[text-center fashion-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[96]]></padding_top>
+        <padding_bottom><![CDATA[90]]></padding_bottom>
+        <block_position>7</block_position>
+    </block>
+    <!--  Childs  -->
+    <child>
+        <block_name>block30-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Shoes Video Block]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-shoes-video-block]]></static_block_identifier>
+        <static_block_content><![CDATA[<a href="#" data-toggle="modal" data-target=".modal-video"><img class="img-responsive" src="{{media url="wysiwyg/promo_dukan_video.jpg"}}" alt="" /></a>
+<div class="modal fade modal-video">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-body"><iframe src="https://www.youtube.com/embed/Se5Uo1tfsGg?list=PLsx6WRTaay2Z5SLzql9iFyFqKzgeDM5n-" height="500"></iframe></div>
+<button class="btn-dismiss" type="button" data-dismiss="modal"><em class="fa fa-times">&nbsp;</em></button></div>
+</div>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"no-padding col-sm-12 hidden-xs","animation":"","animation_delay":""}]]></setting>
+        <col>6</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block36-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Shipping Block]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-shipping-block]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon_news.png"}}" alt="" /></div>
+<h4>FREE SHIPPING</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block36-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Shipping Block 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-shipping-block2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon_news2.png"}}" alt="" /></div>
+<h4>NEED ASSISTANCE?</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInDown","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block36-2</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Shipping Block 3]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-shipping-block3]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon_news3.png"}}" alt="" /></div>
+<h4>FREE RETURNS</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block30-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Shoes Promo Top 1]]></banner_title>
+        <banner_filename><![CDATA[promo_shoes1.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2>COLORFUL</h2>
+<h5>SUMMER SHOES</h5>
+<a class="a-default">DISCOVER MORE</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[center]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"no-padding ef-bg-shadow col-sm-12 hidden-xs","animation":"","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>6</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block30-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Shoes Promo Top 2]]></banner_title>
+        <banner_filename><![CDATA[promo_shoes5.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h1>SALE OFF 60%</h1>
+<h5>FOR ALL BRIDE</h5>
+<a class="a-default">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[left]]></banner_text_align>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"no-padding hidden-sm col-xs-12","animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block30-1</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Shoes Promo Top 3]]></banner_title>
+        <banner_filename><![CDATA[promo_shoes6.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h5>SALE UP TO 50%</h5>
+<h2 class="text-decoration">WOMEN'S</h2>
+<h3>SHOES COLLECTION</h3>
+<br>
+<a class="a-default">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[center]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"no-padding ef-bg-shadow col-sm-12 hidden-xs","animation":"","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>6</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block30-1</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Shoes Promo Top 5]]></banner_title>
+        <banner_filename><![CDATA[promo_shoes3.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h5>UP TO 60% OFF</h5>
+<h2 class="text-decoration">MEN'S SHOES</h2>
+<a class="a-default">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[center]]></banner_text_align>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"no-padding ef-bg-shadow hidden-sm hidden-xs","animation":"","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>6</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block30-1</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Shoes Promo Top 4]]></banner_title>
+        <banner_filename><![CDATA[promo_shoes4.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h5>COLLECTION 2015</h5>
+<h2 class="text-decoration">SANDALS</h2>
+<a class="a-default">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[center]]></banner_text_align>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"no-padding ef-bg-shadow hidden-sm hidden-xs","animation":"","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>6</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block31-0</block_name>
+        <block_content><![CDATA[{{block type="core/template" products_count="8" slider="0" count_per_row="4" tabs="new_products,featured_products,hot_products,sale_products" product_ratio="" new_label="New Products" featured_label="Featured" hot_label="Best Seller" sale_label="Sale" rate_label="" category_id="" template="mgs/mpanel/tabs.phtml"}}]]></block_content>
+        <type>tabs</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInUp","animation_delay":"","product_tab":["new_products","featured_products","hot_products","sale_products"],"new_label":"New Products","featured_label":"Featured","hot_label":"Best Seller","sale_label":"Sale","rate_label":"","product_count":"8","count_per_row":"4","product_ratio":"","slider":{"active":"0","number_row":"","auto":"false","stop_hover":"false","navigation":"false","pagination":"false"},"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","price_colour":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block33-0</block_name>
+        <block_content><![CDATA[{{block type="mpanel/products" products_count="3" title="Top Sellers" template="mgs/mpanel/products/list/hot_products.phtml" product_ratio="4"}}]]></block_content>
+        <type>hot</type>
+        <position>1</position>
+        <setting><![CDATA[{"title":"Top Sellers","custom_class":"","animation":"fadeInUp","animation_delay":"","product_count":"3","view_mode":"list","count_per_row":"1","product_ratio":"4","slider":{"active":"0","number_row":"","auto":"false","stop_hover":"false","navigation":"false","pagination":"false"},"load_more":"0","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","price_colour":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block33-1</block_name>
+        <block_content><![CDATA[{{block type="mpanel/product_sale" products_count="3" title="Hot Sales" template="mgs/mpanel/products/list/sale_products.phtml" product_ratio="4"}}]]></block_content>
+        <type>sale</type>
+        <position>1</position>
+        <setting><![CDATA[{"title":"Hot Sales","custom_class":"","animation":"fadeInUp","animation_delay":"","product_count":"3","view_mode":"list","count_per_row":"1","product_ratio":"4","slider":{"active":"0","number_row":"","auto":"false","stop_hover":"false","navigation":"false","pagination":"false"},"load_more":"0","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","price_colour":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block36-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"visible-xs","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block36-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"visible-xs","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+</layout>

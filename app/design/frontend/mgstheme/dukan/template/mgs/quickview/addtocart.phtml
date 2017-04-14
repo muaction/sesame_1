@@ -1,0 +1,52 @@
+<?php
+/* * ****************************************************
+ * Package   : QuickView
+ * Author    : HIEPNH
+ * Copyright : (c) 2014
+ * ***************************************************** */
+?>
+<?php $_product = $this->getProduct(); ?>
+<?php $buttonTitle = $this->__('Add to Cart'); ?>
+<?php if ($_product->isSaleable()): ?>
+    <div class="add-to-cart">
+        <?php if (!$_product->isGrouped()): ?>
+            <div class="shop_meta">
+				<div class="btn-shop">
+					<div class="form-inline box-add-to-cart">
+						<p class="label-atb"><?php echo $this->__('Quantity') ?></p>
+						<p class="qty-box"><span class="qty-remove"  onclick="minusQty('qty')"><i class="fa fa-angle-down"></i></span>
+						<input type="text" class="form-control input-qty-product" title="Qty" value="<?php echo $this->getProductDefaultQty() * 1 ?>" name="qty" id="qty"/>
+						<span class="qty-add" onclick="plusQty('qty')"><i class="fa fa-angle-up"></i></span></p>
+						<p class="btn-shop">
+							<button type="button" title="<?php echo $buttonTitle ?>" class="btn-cart btn btn-primary btn-sm" onclick="ajaxSubmitForm.submit(this)"><span><span><?php echo $buttonTitle ?></span></span></button>        
+							&nbsp;<span id="ajax_cart_loader" style="display:none;"><img src="<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif') ?>"/></span>
+						</p>
+					</div>
+				</div>
+            </div>
+        <?php endif; ?>
+        <?php echo $this->getChildHtml('', true, true) ?>
+        <script type="text/javascript">
+            function plusQty(qtyInput){
+                if(jQuery('#'+qtyInput).attr('disabled')!='disabled'){
+                    qty = $(qtyInput).value;
+                    qty = parseInt(qty);
+                    qty++;
+                    $(qtyInput).value = qty;
+                }
+            }
+    		
+            function minusQty(qtyInput){
+                if(jQuery('#'+qtyInput).attr('disabled')!='disabled'){
+                    qty = $(qtyInput).value;
+                    qty = parseInt(qty);
+    				
+                    if(qty>1){
+                        qty--;
+                        $(qtyInput).value = qty;
+                    }
+                }
+            }
+        </script>
+    </div>
+<?php endif; ?>

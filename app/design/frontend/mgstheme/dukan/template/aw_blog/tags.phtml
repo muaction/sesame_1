@@ -1,0 +1,10 @@
+<?php if (Mage::getStoreConfig(AW_Blog_Helper_Config::XML_TAGCLOUD_SIZE) && $this->getCollection()->count()): ?>
+    <div class="menu-tags">
+        <h5><?php echo Mage::helper('blog')->__('Tags'); ?></h5>
+        <ul class="tagcloud">
+            <?php foreach ($this->getCollection() as $tag): ?>
+                <li><button type="button" class="btn btn-default btn-xs tag-count-<?php echo $this->getTagWeight($tag) ?>" onclick="setLocation('<?php echo $this->getTagHref($tag) ?>')"><?php echo $tag->getTag() ?></button></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+<?php endif; ?>

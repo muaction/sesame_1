@@ -1,0 +1,489 @@
+<static_block>
+	<item>
+		<title>Dukan Get In Touch</title>
+		<identifier>dukan_get_in_touch</identifier>
+		<content><![CDATA[<h4>Get In Touch</h4>
+<ul class="info">
+<li><em class="fa fa-map-marker">&nbsp;</em><span>1422 1st St. Santa Rosa,t CA 94559 USA</span></li>
+<li><em class="fa fa-envelope-o">&nbsp;</em><a href="mailto:admin@e-mail.com"><span>admin@e-mail.com</span></a></li>
+<li><em class="fa fa-phone">&nbsp;</em><a href="tel:00201008431112"><span>002- 01008431112</span></a></li>
+<li><em class="fa fa-link">&nbsp;</em><a href="www.your_domain.com"><span>www.your_domain.com</span></a></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Flickr Stream</title>
+		<identifier>dukan_flickr_stream</identifier>
+		<content><![CDATA[<h4>Flickr Stream</h4>
+{{block type="core/template" name="twitter.feed" as="twitter.feed" template="mgs/mpanel/flickr_photo.phtml"/}}]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Latest News</title>
+		<identifier>dukan_latest_news</identifier>
+		<content><![CDATA[<h4>Latest News</h4>
+<div>
+{{widget type="blog/last" blocks_count="2" categories="1"}}
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Twitter Feed</title>
+		<identifier>dukan_twitter_feed</identifier>
+		<content><![CDATA[<h4>Twitter Feed</h4>
+<div>
+{{block type="core/template" name="twitter.feed" as="twitter.feed" template="mgs/mpanel/twitter_tweets.phtml"/}}
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Logo Footer</title>
+		<identifier>dukan_logo_footer</identifier>
+		<content><![CDATA[<p><img class="logo_footer" src="{{media url="wysiwyg/logo_gray.png"}}" alt="" /></p>
+<p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri.</p>
+<ul>
+<li><a href="#"><em class="fa fa-facebook">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-twitter">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-google-plus">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-behance">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-skype">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-apple">&nbsp;</em></a></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Tag</title>
+		<identifier>dukan_tag</identifier>
+		<content><![CDATA[<div>{{block type="tag/popular" name="tags_popular" as="tags_popular" template="tag/popular.phtml"}}</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Account</title>
+		<identifier>dukan_account</identifier>
+		<content><![CDATA[<h4>Account</h4>
+<ul class="account">
+<li><a href="#">My Account</a></li>
+<li><a href="#">Wishlist</a></li>
+<li><a href="#">Checkout</a></li>
+<li><a href="#">Order History</a></li>
+<li><a href="#">Specials</a></li>
+<li><a href="#">Gift Vochers</a></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Information</title>
+		<identifier>dukan_information</identifier>
+		<content><![CDATA[<h4>Information</h4>
+<ul class="infomation">
+<li><a href="#">About Us</a></li>
+<li><a href="#">Our History</a></li>
+<li><a href="#">Our Stories</a></li>
+<li><a href="#">Hot Line</a></li>
+<li><a href="#">Delivery Information</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Bg Breadcrumb 2</title>
+		<identifier>dukan_bg_breadcrumb2</identifier>
+		<content><![CDATA[<img src="{{media url="wysiwyg/200.jpg"}}" alt="" />]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Bg Breadcrumb</title>
+		<identifier>dukan_bg_breadcrumb</identifier>
+		<content><![CDATA[<p><img class="img-responsive" src="{{media url="wysiwyg/bg-bread.jpg"}}" alt="" /></p>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Bg Breadcrumb</title>
+		<identifier>dukan_bg_breadcrumb</identifier>
+		<content><![CDATA[<p><img class="img-responsive" src="{{media url="wysiwyg/bg-parallax.jpg"}}" alt="" /></p>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Bg Breadcrumb</title>
+		<identifier>dukan_bg_breadcrumb</identifier>
+		<content><![CDATA[<p><img class="img-responsive" src="{{media url="wysiwyg/jewelry.jpg"}}" alt="" /></p>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Bg Breadcrumb</title>
+		<identifier>dukan_bg_breadcrumb</identifier>
+		<content><![CDATA[<p><img class="img-responsive" src="{{media url="wysiwyg/eyewear.jpg"}}" alt="" /></p>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Bg Breadcrumb</title>
+		<identifier>dukan_bg_breadcrumb</identifier>
+		<content><![CDATA[<p><img class="img-responsive" src="{{media url="wysiwyg/bags.jpg"}}" alt="" /></p>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Newsletter</title>
+		<identifier>dukan_newsletter</identifier>
+		<content><![CDATA[<h4>Newsletter</h4>
+<div>{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Social</title>
+		<identifier>dukan_social</identifier>
+		<content><![CDATA[<h4>SOCIALIZE WITH US</h4>
+<ul>
+<li><a href="#"><em class="fa fa-facebook">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-twitter">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-google-plus">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-behance">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-skype">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-apple">&nbsp;</em></a></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Useful Links</title>
+		<identifier>dukan_useful_links</identifier>
+		<content><![CDATA[<h4>Useful Links</h4>
+<div class="useful">
+<ul class="pull-left">
+<li><a href="#">My Account</a></li>
+<li><a href="#">Wishlist</a></li>
+<li><a href="#">Checkout</a></li>
+<li><a href="#">Order History</a></li>
+<li><a href="#">Specials</a></li>
+<li><a href="#">Gift Vochers</a></li>
+</ul>
+<ul class="pull-right">
+<li><a href="#">About Us</a></li>
+<li><a href="#">Our History</a></li>
+<li><a href="#">Our Stores</a></li>
+<li><a href="#">Hot Line</a></li>
+<li><a href="#">Delivery</a></li>
+<li><a href="#">Information</a></li>
+</ul>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Logo Footer 2</title>
+		<identifier>dukan_logo_footer_2</identifier>
+		<content><![CDATA[<p><img class="logo_footer" src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></p>
+<p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri.</p>
+<p><a href="#">Read More</a></p>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Links About</title>
+		<identifier>dukan_links_about</identifier>
+		<content><![CDATA[<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Branches</a></li>
+<li><a href="#">Call Us</a></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Logo</title>
+		<identifier>dukan_logo</identifier>
+		<content><![CDATA[<a href="#"><img class="img-responsive logo_footer" src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></a>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan About Us</title>
+		<identifier>dukan_about_us</identifier>
+		<content><![CDATA[<h4>About Us</h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry .</p>
+<ul class="info">
+<li><em class="fa fa-map-marker">&nbsp;</em><span>1422 1st St. Santa Rosa,t CA 94559 USA</span></li>
+<li><em class="fa fa-envelope-o">&nbsp;</em><span>admin@e-mail.com</span></li>
+<li><em class="fa fa-phone">&nbsp;</em><span>002- 01008431112</span></li>
+<li><em class="fa fa-link">&nbsp;</em><span>www.your_domain.com</span></li>
+</ul>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mailing List</title>
+		<identifier>dukan_mailing_list</identifier>
+		<content><![CDATA[<h4>Mailing List</h4>
+<p>Please enter your email address for our mailing list to keep your self our lastest updated.</p>
+<p>{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}</p>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Twitter</title>
+		<identifier>dukan_twitter</identifier>
+		<content><![CDATA[<em class="fa fa-twitter">&nbsp;</em>
+<p>Suspendisse et metus eu massa lobortis condimentum sed ut orci....</p>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Video</title>
+		<identifier>dukan_video</identifier>
+		<content><![CDATA[<h4>Explorer</h4>
+<iframe width="250" height="200" src="https://www.youtube.com/embed/Se5Uo1tfsGg?list=PLsx6WRTaay2Z5SLzql9iFyFqKzgeDM5n-" frameborder="0" allowfullscreen></iframe>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Logo 2</title>
+		<identifier>dukan_logo_2</identifier>
+		<content><![CDATA[<img class="logo_footer" src="{{media url="wysiwyg/img-logo.png"}}" alt="" />
+<p>Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitper in laudem malorum epicuri, Mea omnium explicari te, eu sit vidit harum fabellas, his no legere feugaitpe,.</p>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Accept</title>
+		<identifier>dukan_accept</identifier>
+		<content><![CDATA[<h4>We Accept</h4>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Social</title>
+		<identifier>dukan_social</identifier>
+		<content><![CDATA[<h4>SOCIALIZE WITH US</h4>
+<ul>
+<li><a href="#"><em class="fa fa-facebook">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-twitter">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-google-plus">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-behance">&nbsp;</em></a></li>
+<li><a href="#"><em class="fa fa-skype">&nbsp;</em></a></li>
+</ul>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mailing List</title>
+		<identifier>dukan_mailing_list</identifier>
+		<content><![CDATA[<h4>Mailing List</h4>
+<p>Please enter your email address for our mailing list to keep your self our lastest updated.</p>{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mobile Payments</title>
+		<identifier>dukan_mobile_payments</identifier>
+		<content><![CDATA[<img src="{{media url="wysiwyg/payments.png"}}" alt="" />]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mobile Copyright</title>
+		<identifier>dukan_mobile_copyright</identifier>
+		<content><![CDATA[Coppyright &copy; 2014 <a href="#">Dukan</a>. All Rights Reserved.<br />Powered by <a href="#">ArrowHitech</a>.]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mobile Socials</title>
+		<identifier>dukan_mobile_socilas</identifier>
+		<content><![CDATA[<div class="block-title">
+<h3>Follow Us</h3>
+</div>
+<div class="block-content">
+<ul>
+<li><a href="#"><span class="fa fa-facebook">&nbsp;</span></a></li>
+<li><a href="#"><span class="fa fa-twitter">&nbsp;</span></a></li>
+<li><a href="#"><span class="fa fa-pinterest">&nbsp;</span></a></li>
+<li><a href="#"><span class="fa fa-instagram">&nbsp;</span></a></li>
+<li><a href="#"><span class="fa fa-youtube-play">&nbsp;</span></a></li>
+<li><a href="#"><span class="fa fa-google-plus">&nbsp;</span></a></li>
+</ul>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mobile Main Menu</title>
+		<identifier>dukan_mobile_main_menu</identifier>
+		<content><![CDATA[{{block type="megamenu/horizontal" menu_id="2" template="megamenu/horizontal.phtml"}}]]></content>
+	</item>
+	
+	<item>
+		<title>Newsletter Popup Fashion</title>
+		<identifier>newsletter_popup</identifier>
+		<content><![CDATA[<p id="img-newsletter"><img src="{{media url="wysiwyg/fashion_nstp.jpg"}}" alt="" /></p>
+<div class="newsletter-popup">
+<p><img src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></p>
+<h3 class="color-theme">Join Our Newsletter</h3>
+<p class="desc-popup text-colour-white">Subscribe to the Dukan eCommerce newsletter to receive timely updates from your favorite products.</p>
+{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+<div class="checkbox text-colour-white"><label for="dont_show"> <input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox" /> Don't show this popup again </label></div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Newsletter Popup Watch</title>
+		<identifier>newsletter_popup</identifier>
+		<content><![CDATA[<p id="img-newsletter"><img src="{{media url="wysiwyg/watch_nst.jpg"}}" alt="" /></p>
+<div class="newsletter-popup">
+<p><img src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></p>
+<h3 class="color-theme">Join Our Newsletter</h3>
+<p class="desc-popup text-colour-white">Subscribe to the Dukan eCommerce newsletter to receive timely updates from your favorite products.</p>
+{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+<div class="checkbox text-colour-white"><label for="dont_show"> <input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox" /> Don't show this popup again </label></div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Newsletter Popup Bags</title>
+		<identifier>newsletter_popup</identifier>
+		<content><![CDATA[<p id="img-newsletter"><img src="{{media url="wysiwyg/bag2_popup.jpg"}}" alt="" /></p>
+<div class="newsletter-popup">
+<p><img src="{{media url="wysiwyg/logo_black.png"}}" alt="" /></p>
+<h3 class="color-theme">Join Our Newsletter</h3>
+<p class="desc-popup hidden-xs">Subscribe to the Dukan eCommerce newsletter to receive timely updates from your favorite products.</p>
+{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+<div class="checkbox"><label for="dont_show"> <input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox" /> Don't show this popup again </label></div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Newsletter Popup Eye</title>
+		<identifier>newsletter_popup</identifier>
+		<content><![CDATA[<p id="img-newsletter"><img src="{{media url="wysiwyg/Glass_popup.jpg"}}" alt="" /></p>
+<div class="newsletter-popup">
+<p><img src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></p>
+<h3 class="color-theme">Join Our Newsletter</h3>
+<p class="desc-popup text-colour-white">Subscribe to the Dukan eCommerce newsletter to receive timely updates from your favorite products.</p>
+{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+<div class="checkbox text-colour-white"><label for="dont_show"> <input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox" /> Don't show this popup again </label></div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Newsletter Popup Shoes</title>
+		<identifier>newsletter_popup</identifier>
+		<content><![CDATA[<p id="img-newsletter"><img src="{{media url="wysiwyg/shoes_popup.jpg"}}" alt="" /></p>
+<div class="newsletter-popup">
+<p><img src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></p>
+<h3 class="color-theme">Join Our Newsletter</h3>
+<p class="desc-popup text-colour-white">Subscribe to the Dukan eCommerce newsletter to receive timely updates from your favorite products.</p>
+{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+<div class="checkbox text-colour-white"><label for="dont_show"> <input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox" /> Don't show this popup again </label></div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Newsletter Popup Jewelry</title>
+		<identifier>newsletter_popup</identifier>
+		<content><![CDATA[<p id="img-newsletter"><img src="{{media url="wysiwyg/jewelry_popup.jpg"}}" alt="" /></p>
+<div class="newsletter-popup">
+<p><img src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></p>
+<h3 class="color-theme">Join Our Newsletter</h3>
+<p class="desc-popup hidden-xs">Subscribe to the Dukan eCommerce newsletter to receive timely updates from your favorite products.</p>
+{{block type="newsletter/subscribe" name="home.newsletter" as="home.newsletter" template="newsletter/footer-subscribe.phtml"/}}
+<div class="checkbox"><label for="dont_show"> <input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox" /> Don't show this popup again </label></div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Mobile Homepage</title>
+		<identifier>dukan_mobile_homepage</identifier>
+		<content><![CDATA[<div class="mobile-homepage-content">
+<div class="rev-slider">{{widget type="revslider/slider_preview" id="2"}}</div>
+<div class="featured">{{block type="mpanel/products" products_count="10" title="Featured Products" template="cms/home/featured_products.phtml"}}</div>
+<div class="mobile-v-menu">
+<div class="v-menu-title">
+<h3>Shop By Category</h3>
+</div>
+{{block type="page/html_topmenu" template="page/html/topmenu.phtml"}}</div>
+</div>]]></content>
+	</item>
+	
+	<item>
+		<title>Mpanel Contact Information</title>
+		<identifier>mpanel_contact_information</identifier>
+		<content><![CDATA[<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<ul  class="store-info">
+<li><em class="fa fa-road">&nbsp;</em>
+<h4><span class="uppercase">Address:</span></h4>
+<p>1422 1st St. Santa Rosa,t CA 94559. USA</p>
+</li>
+<li><em class="fa fa-phone">&nbsp;</em>
+<h4><span class="uppercase">Phones Numbers:</span></h4>
+<p>1-541-754-3010</p>
+<p>02 - 0100 843 1112</p>
+</li>
+<li><em class="fa fa-envelope">&nbsp;</em>
+<h4><span class="uppercase">Email:</span></h4>
+<p>information@domain.com</p>
+</li>
+</ul>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<img class="img-responsive" src="{{media url="wysiwyg/img_contactus.jpg"}}" alt="" />
+</div>
+</div>
+]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Landing Category Grid</title>
+		<identifier>dukan_landing_category_grid</identifier>
+		<content><![CDATA[{{block type="catalog/navigation" template="mgs/mpanel/landing-grid.phtml"}}]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Landing Category Lookbook</title>
+		<identifier>dukan_landing_category_lookbook</identifier>
+		<content><![CDATA[{{block type="catalog/navigation" template="mgs/mpanel/landing-lookbook.phtml"}}]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Landing Category Mansory</title>
+		<identifier>dukan_landing_category_mansory</identifier>
+		<content><![CDATA[{{block type="catalog/navigation" template="mgs/mpanel/landing-mansory.phtml"}}]]></content>
+	</item>
+	
+	<item>
+		<title>Dukan Colright Product Info</title>
+		<identifier>dukan_colright_product_info</identifier>
+		<content><![CDATA[<div class="block">
+<ul class="right-policy">
+<li>
+<div class="block-title sidebar-title-block">
+        <h4><span>Free Shipping</span></h4>
+ </div>
+<div class="policy-img">
+<img src="{{media url="wysiwyg/icon1.png"}}" alt="" />
+</div>
+<div class="policy-text">
+<p>Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>
+</li>
+<li>
+
+<div class="block-title sidebar-title-block">
+        <h4><span>Need Assistance</span></h4>
+ </div>
+<div class="policy-img">
+<img src="{{media url="wysiwyg/icon2.png"}}" alt="" />
+</div>
+<div class="policy-text">
+<p>Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>
+</li>
+<li>
+
+<div class="block-title sidebar-title-block">
+        <h4><span>Free Returns</span></h4>
+ </div>
+<div class="policy-img">
+<img src="{{media url="wysiwyg/icon3.png"}}" alt="" />
+</div>
+<div class="policy-text">
+<p>Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>
+</li>
+</ul>
+</div>]]></content>
+	</item>
+
+</static_block>

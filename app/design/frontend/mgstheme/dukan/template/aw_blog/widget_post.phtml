@@ -1,0 +1,119 @@
+<?php if ($posts = $this->getRecent()): ?>
+	<div class="widget-latest">
+		<?php if($this->getTitle() && $this->getTitle()!=''): ?>
+			<div class="block-title sidebar-title-block">
+				<h4>
+					<span><?php echo $this->getTitle(); ?></span>	
+				</h4>
+			</div>
+		<?php endif ?>
+		<?php if($this->getViewMode()=='grid'): ?>
+			<?php if($this->getSlider()==1): ?>
+				<div class="owl-carousel latest-post-carousel" id="latest-post-carousel" data-plugin-options='{"items": 1, "autoHeight": true}'>
+					<?php $i=0; foreach ($posts as $post): ?>
+						<div class="item">
+							<article>
+								<?php echo $this->helper('mpanel')->getFirstImage($post->getOrigData('post_content'), $post->getAddress()) ?>
+								<div class="date">
+									<span class="day"><?php echo date('d', strtotime($post->getCreatedTime())) ?></span>
+									<span class="month"><?php echo date('M', strtotime($post->getCreatedTime())) ?></span>
+								</div>
+								<h4><a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle(); ?></a></h4>
+								<?php if($post->getShortContent()): ?>
+									<p>
+										<?php if($this->getCharacterCount()!=''): ?>
+											<?php echo Mage::helper('core/string')->truncate(strip_tags($post->getShortContent()), $this->getCharacterCount()); ?>
+										<?php else: ?>
+											<?php echo strip_tags($post->getShortContent()); ?>
+										<?php endif ?>
+										<a href="<?php echo $post->getAddress(); ?>" class="read-more"><?php echo Mage::helper('blog')->__('read more'); ?> <i class="icon icon-angle-right"></i></a>
+									</p>
+								<?php endif ?>
+							</article>
+						</div>
+					<?php endforeach; ?>
+				</div>
+				
+				<script type="text/javascript">
+					initSlider('latest-post-carousel', <?php echo $this->getColumn() ?>, <?php echo $this->getAutoPlay()?>, <?php echo $this->getStopHover()?>, <?php echo $this->getNavigation()?>, <?php echo $this->getPagination()?>);
+				</script>
+			<?php else: ?>
+			
+				<div class="latest-post-container">
+					<?php $i=0; foreach ($posts as $post): ?>
+						<div class="blog-view-container col-md-<?php echo $this->helper('mpanel')->convertColRow($this->getColumn()) ?> col-sm-6 col-xs-12">
+							<div class="latest-post-img">
+								<?php if ($post->getFeaturedImage() != ''): ?>
+									<a href="<?php echo $post->getAddress(); ?>" >
+										<img class="img-responsive" alt="" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'blog/' . $post->getFeaturedImage(); ?>"/>
+									</a>
+								<?php endif ?>
+							</div>
+							<div class="latest-post-decs">
+								<div class="latest-date">
+									<div class="icon-desc">
+										<i class="fa fa-picture-o"></i>
+									</div>
+									<div class="day-desc">
+										<span class="day"><?php echo date('d', strtotime($post->getCreatedTime())) ?></span>
+										<span class="month"><?php echo date('M', strtotime($post->getCreatedTime())) ?></span>
+									</div>
+								</div>
+								<div class="latest-decs">
+									<h4><a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle(); ?></a></h4>
+									<div class="post-info">
+										<i class="fa fa-user"></i>
+										<?php if (!empty($postCats)): ?>
+											<?php echo Mage::helper('blog')->__('Posted in'); ?>
+											<?php foreach ($postCats as $title => $url): ?>
+												<a href="<?php echo $url; ?>"><?php echo $title; ?></a>
+											<?php endforeach; ?>
+										<?php else: ?>
+											<?php echo Mage::helper('blog')->__('Posted'); ?>
+										<?php endif; ?><?php echo $this->__("by:"); ?> <?php echo $post->getUser(); ?>
+										<?php if ($this->getCommentsEnabled()): ?>
+											<?php ($post->getCommentCount() >= 1) ? $post->getCommentCount() : 0 ?> <a class="comments" href="<?php echo $post->getAddress(); ?>#commentBox" ><i class="fa fa-comments-o"></i> <?php echo Mage::helper('blog')->__(' Comments'); ?></a>
+										<?php endif; ?>
+									</div>
+								</div>
+							</div>
+						</div>
+					<?php endforeach; ?>
+				</div>
+			<?php endif ?>
+		<?php else: ?>
+			<div class="latest-post-list">
+				<?php $i=0; foreach ($posts as $post): ?>
+						<div class="latest-post-info row">
+							<div class="latest-post-img col-md-4 col-sm-4 col-xs-5">
+								<?php if ($post->getFeaturedImage() != ''): ?>
+									<a href="<?php echo $post->getAddress(); ?>" >
+										<img class="img-responsive" alt="" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'blog/' . $post->getFeaturedImage(); ?>"/>
+									</a>
+								<?php endif ?>
+							</div>
+							<div class="latest-post-desc col-md-8 col-sm-8 col-xs-7">
+								<?php echo $this->helper('mpanel')->getFirstImage($post->getOrigData('post_content'), $post->getAddress()) ?>
+								<div class="date">
+									<span class="day"><?php echo date('d', strtotime($post->getCreatedTime())) ?></span>
+									<span class="month"><?php echo date('M', strtotime($post->getCreatedTime())) ?></span>
+									<span class="year"><?php echo date('Y', strtotime($post->getCreatedTime())) ?></span>
+								</div>
+								<h4><a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle(); ?></a></h4>
+								<?php if($post->getShortContent()): ?>
+									<p>
+										<?php if($this->getCharacterCount()!=''): ?>
+											<?php echo Mage::helper('core/string')->truncate(strip_tags($post->getShortContent()), $this->getCharacterCount()); ?>
+										<?php else: ?>
+											<?php echo strip_tags($post->getShortContent()); ?>
+										<?php endif ?>
+										<a href="<?php echo $post->getAddress(); ?>" class="read-more"><?php echo Mage::helper('blog')->__('read more'); ?> <i class="icon icon-angle-right"></i></a>
+									</p>
+								<?php endif ?>
+							</div>
+						</div>
+				<?php endforeach; ?>
+			</div>
+		<?php endif ?>
+	</div>
+<?php endif; ?>

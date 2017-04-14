@@ -1,0 +1,70 @@
+<cms_page>
+	<item>
+		<title>About Us</title>
+		<identifier>about-us</identifier>
+		<root_template>one_column</root_template>
+		<content>
+			<![CDATA[<center>
+<h2>WE&rsquo;RE DUKAN</h2>
+</center><center>
+<h4>MULTIPURPORE MAGENTO TEMPLATE</h4>
+</center><center><a href="#"><img class="img-responsive" src="{{media url="wysiwyg/img-notfound.jpg"}}" alt="" /></a></center>
+<br />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus. Curabitur pulvinar dui viverra libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. Duis ultricies condimentum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus laoreet sagittis ligula, sed sollicitudin odio bibendum sed. Duis nec libero magna. Nullam et orci a quam accumsan laoreet. Donec nisl sem, rhoncus in lacinia sed, eleifend in nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut interdum, lacus in fermentum ultricies, urna dolor pretium odio, fringilla tincidunt sapien urna vel diam. Donec lobortis eros a justo fringilla luctus. Morbi diam leo, ultrices in tempor ac, facilisis consequat odio. Aenean condimentum vestibulum justo in imperdiet..</p>
+<h4>QUOTE STYLE</h4>
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus.</blockquote>
+<h4>LIST STYLE</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus.</p>
+<ul>
+<li>Cras sit amet metus risus. Aenean mattis orci quis erat vehicula ultricies.</li>
+<li>Nam mollis velit et augue tincidunt vel blandit risus semper.</li>
+<li>Nulla nisl odio, varius ut mollis non, fermentum viverra urna. Etiam non lorem sed erat egestas iaculis.</li>
+<li>Etiam justo est, cursus vitae adipiscing sit amet, iaculis non metus.</li>
+</ul>
+<p>Duis tellus nisl, tempus sed lacinia ac, luctus eget purus. Donec vel est nec lorem ornare posuere sit amet eget turpis. Duis lacinia purus facilisis quam tristique ut dignissim nulla viverra.<a href="#">Suspendisse potenti.</a></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus. Curabitur pulvinar dui viverra libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. Duis ultricies condimentum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus laoreet sagittis ligula, sed sollicitudin odio bibendum sed. Duis nec libero magna. Nullam et orci a quam accumsan laoreet. Donec nisl sem, rhoncus in lacinia sed, eleifend in nisl.</p>
+<br />
+			]]>
+		</content>
+	</item>
+	<item>
+		<title>404 Not Found</title>
+		<identifier>no-route</identifier>
+		<root_template>empty</root_template>
+		<content>
+			<![CDATA[<div class="container-fluid container-404-page">
+<div class="row">
+<div class="content-page"  style="background-repeat: no-repeat; background-size: cover; background-image:url('{{media url="wysiwyg/img-notfound.jpg"}}')">
+<div class="container-page">
+<div class="row">
+<div class="img-logo col-xs-12"><img src="{{media url="wysiwyg/img-logo.png"}}" alt="" /></div>
+<div class="title-page col-xs-12"><p><span class="color-theme">PAGE NOT FOUND</span></p></div>
+</div>
+
+<div class="row">
+<div class="col-md-8 col-md-push-2 col-sm-12 col-xs-12">Sorry, this page is not available.<br />
+The page you are looking for was moved, removed, renamed or might never existed.</div>
+</div>
+
+
+<div class="row">
+<div class="text-center col-xs-12">
+<div class="big-text">404</div >
+<p><span class="small-text">ERROR</span></p></div>
+</div>
+
+
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-6 text-right"><button class="btn btn-default btn-sm" onclick="setLocation('http://mgs.arrowhitech.net/dukan/')" type="button">BACK TO HOME</button></div>
+<div class="col-md-6 col-sm-6 col-xs-6 text-left"><button class="btn btn-primary btn-sm" onclick="setLocation('http://mgs.arrowhitech.net/dukan/index.php/contacts')" type="button">GET HELP</button></div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+			]]>
+		</content>
+	</item>
+</cms_page>

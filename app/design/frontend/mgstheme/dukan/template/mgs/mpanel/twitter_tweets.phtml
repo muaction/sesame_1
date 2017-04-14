@@ -1,0 +1,37 @@
+<?php $title = $this->getTitle(); ?>
+<?php if($title==''){ $title = Mage::getStoreConfig('social/twitter/twitter_title'); } ?>
+<?php $user = $this->getUser(); ?>
+<?php $count = $this->getCount(); ?>
+<?php $truncate = $this->getTruncate(); ?>
+<?php if($title!=''): ?><h2><?php echo $title ?></h2><?php endif ?>
+<?php if(Mage::getStoreConfig('social/twitter/token')!='' && Mage::getStoreConfig('social/twitter/token_secret') !='' && Mage::getStoreConfig('social/twitter/client_id')!='' && Mage::getStoreConfig('social/twitter/client_secret') !=''): ?>
+	<?php echo $this->helper('mpanel/social')->getLastTwitter($user, $count, $truncate); ?>
+<?php else: ?>
+	<div class="alert alert-warning">
+		<?php echo $this->__('Please update your twitter settings first.') ?>
+	</div>
+<?php endif ?>
+<?php if($count > 1): ?>
+<script type="text/javascript">
+	mgsjQuery('.twitter-home .twitter_feed.social-tweet').addClass("owl-carousel");
+	mgsjQuery('.twitter-home .twitter_feed.social-tweet').css("display","block");
+	mgsjQuery('.twitter-home .twitter_feed.social-tweet .tweet-container').addClass("item");
+	mgsjQuery(".twitter-home .twitter_feed.social-tweet").owlCarousel({
+		items: 1,
+		nav:true,
+		margin:0,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:1
+			}
+		}
+	});
+</script>
+<?php endif ?>
+

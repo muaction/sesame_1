@@ -1,0 +1,72 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div id="footer8" class="footer8">
+	<section class="top-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 social-icon-link">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_social')->toHtml(); ?>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section class="middle-footer">
+        <div class="container">
+            <div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 mobile-footer">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_account')->toHtml(); ?>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 mobile-footer">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_information')->toHtml(); ?>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 mobile-footer row-2sm-first">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_latest_news')->toHtml(); ?>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 mobile-footer flickr">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_flickr_stream')->toHtml(); ?>
+				</div>
+            </div>
+        </div>
+    </section>
+    <section class="bottom-footer">
+        <div class="container">
+            <div class="row">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_accept')->toHtml(); ?>
+				</div>
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('panel_payment_icons')->toHtml(); ?>
+                </div>
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+                    <address class="copy">
+                        <span id="design-footer-copyright-text"><?php echo $this->getCopyright() ?></span>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

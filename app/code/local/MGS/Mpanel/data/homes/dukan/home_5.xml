@@ -1,0 +1,390 @@
+<layout>
+    <name>1_column_full</name>
+	<header>header2</header>
+	<footer>footer2</footer>
+	
+	<!-- Theme Color -->
+	<!-- Theme Color -->
+ <theme_color_header>
+  <use_custom>0</use_custom>
+ </theme_color_header>
+ <theme_color_main>
+  <use_custom>0</use_custom>
+ </theme_color_main>
+ <theme_color_footer>
+  <use_custom>0</use_custom>
+ </theme_color_footer>
+
+ <custom_style>
+  <style><![CDATA[]]></style>
+ </custom_style>
+
+    <!--  Blocks  -->
+    <block>
+        <name>block21</name>
+        <block_cols><![CDATA[3,6,3]]></block_cols>
+        <block_class><![CDATA[["col-sm-6 hidden-xs","hidden-sm col-xs-12 padding-5  ","col-sm-6 hidden-xs"]]]></block_class>
+        <custom_class><![CDATA[fashion-store]]></custom_class>
+        <background><![CDATA[ ]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>2</block_position>
+    </block>
+	
+    <block>
+        <name>block22</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top>86</padding_top>
+        <padding_bottom>23</padding_bottom>
+        <block_position>3</block_position>
+    </block>
+	
+    <block>
+        <name>block23</name>
+        <block_cols><![CDATA[6,6]]></block_cols>
+        <block_class><![CDATA[["col-sm-12 col-xs-12","hidden-sm hidden-xs"]]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_fashion01.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[108]]></padding_top>
+        <padding_bottom><![CDATA[135]]></padding_bottom>
+        <block_position>4</block_position>
+    </block>
+	
+	<block>
+        <name>block24</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[87]]></padding_top>
+        <padding_bottom><![CDATA[112]]></padding_bottom>
+        <block_position>5</block_position>
+    </block>
+	
+	<block>
+        <name>block25</name>
+        <block_cols><![CDATA[6,6]]></block_cols>
+        <block_class><![CDATA[["hidden-sm hidden-xs","col-sm-12 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[text-colour-white]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_brands_fr.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[89]]></padding_bottom>
+        <block_position>6</block_position>
+    </block>
+	
+	<block>
+        <name>block26</name>
+        <block_cols><![CDATA[4,4,4]]></block_cols>
+        <block_class><![CDATA[["col-sm-4 col-xs-12","col-sm-4 col-xs-12","col-sm-4 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[text-center fashion-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[96]]></padding_top>
+        <padding_bottom><![CDATA[90]]></padding_bottom>
+        <block_position>7</block_position>
+    </block>
+	
+	<block>
+        <name>block27</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[fashion-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_newsletter.jpg]]></background_image>
+        <background_repeat>1</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[80]]></padding_bottom>
+        <block_position>8</block_position>
+    </block>
+	
+	<block>
+        <name>block28</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[slider-fashion]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+    <!--  Childs  -->
+    <child>
+        <block_name>block21-2</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Video Block]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-video-block]]></static_block_identifier>
+        <static_block_content><![CDATA[<a href="#"   data-toggle="modal" data-target=".modal-video"><img class="img-responsive" src="{{media url="wysiwyg/promo_fashion_right.jpg"}}" alt="" /></a>
+<div class="modal fade modal-video" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+<iframe height="500" src="https://www.youtube.com/embed/Se5Uo1tfsGg?list=PLsx6WRTaay2Z5SLzql9iFyFqKzgeDM5n-"  allowfullscreen></iframe>
+      </div>
+<button type="button" class="btn-dismiss" data-dismiss="modal"><em class="fa fa-times">&nbsp;</em></button>
+    </div>
+  </div>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"padding-5 no-padding-l  col-sm-12 col-xs-12","animation":"","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block22-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Title New Product]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-title-new-product]]></static_block_identifier>
+        <static_block_content><![CDATA[<h5 class="color-gray">TOPLIST OF WEEK</h5>	
+<h2 class="title-content"><em class="color-theme fa fa-star">&nbsp;</em ><span>NEW ARRIVAL</span><em class="color-theme fa fa-star">&nbsp;</em ></h2>]]></static_block_content>
+        <type>static</type>
+        <position> 1</position>
+        <setting><![CDATA[{"custom_class":"text-center col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block23-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Block Hot Season]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-block-hot-season]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="text-colour-white link-colour-white ">
+<h4>SEE WHAT IS</h4>
+<h1>HOT NEXT SEASON</h1>
+<p style="font-size: 18px; font-weight: 100;"><em>his is your first post. Edit or delete it, then start bloggin Molestias excepturi sint occaecati cupiditate non provident similique sunt in culpa qui officia deserunt animi id est laborum et dolorum fuga .
+</em></p>
+<br />
+<a class="a-default">DISCOVER MORE</a>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block24-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Title Most Of Popular]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-title-most-of-popular]]></static_block_identifier>
+        <static_block_content><![CDATA[<h5 class="color-gray">MOST OF POPULAR THIS WEEK</h5>	
+<h2 class="title-content"><em class="color-theme fa fa-star">&nbsp;</em ><span>SALE PRODUCTS</span><em class="color-theme fa fa-star">&nbsp;</em ></h2>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block25-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Fashion Title Our Brands]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-fashion-title-our-brands]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="title-content"><em class="color-theme fa fa-star">&nbsp;</em ><span>OUR BRANDS</span><em class="color-theme fa fa-star">&nbsp;</em ></h2>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12 text-center","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block26-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Shipping Block]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-shipping-block]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon1.png"}}" alt="" /></div>
+<h4>FREE SHIPPING</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block26-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Shipping Block 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-shipping-block2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon2.png"}}" alt="" /></div>
+<h4>NEED ASSISTANCE?</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block26-2</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Shipping Block 3]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-shipping-block3]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon3.png"}}" alt="" /></div>
+<h4>FREE RETURNS</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block27-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Newsletter Type 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-newsletter-type2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="text-colour-white"><h2>STAY UP TO DATE</h2></div>
+<div class="text-colour-silver"><p>SIGN UP TO OUR NEWSLETTER FOR THE LATEST ON ALL THINGS SUITSUPPLY
+</p></div>
+<div class="newsletter-type2 col-md-6 col-md-push-3">
+        {{block type="newsletter/subscribe" name="footer.newsletter" as="footer.newsletter" template="newsletter/home-subscribe-type2.phtml"/}}
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInDown","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block21-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Fashion Promo 1]]></banner_title>
+        <banner_filename><![CDATA[promo_fashion_left2.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h4>SALE UP 50%</h4>
+<h3>MEN'S</h3>
+<h4>FASHION</h4>
+<a href="#" class="a-default">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[right]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"padding-5 no-padding-r col-sm-12 col-xs-12 effect-two","animation":"fadeInLeft","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block21-1</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Fashion Promo 2]]></banner_title>
+        <banner_filename><![CDATA[promo_fashion01.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h3>COLLECTION 2015</h3>
+<h2>WOMENT'S FASHION</h2>
+<a class="a-default">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[left]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12 line-effect","animation":"fadeInUp","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block22-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"20","margin_bottom":"20"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block24-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"20","margin_bottom":"20"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block24-0</block_name>
+        <block_content><![CDATA[{{block type="mpanel/product_sale" products_count="8" slider="0" count_per_row="4" title="" product_ratio="4" load_more="1" template="mgs/mpanel/products/sale_products.phtml"}}]]></block_content>
+        <type>new_products</type>
+        <position>3</position>
+        <setting><![CDATA[{"title":"","custom_class":"col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":"","product_count":"8","view_mode":"grid","count_per_row":"4","product_ratio":"4","slider":{"active":"0","number_row":"1","auto":"false","stop_hover":"false","navigation":"false","pagination":"false"},"load_more":"1","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","price_colour":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block26-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-lg hidden-md hidden-sm col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block26-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-lg hidden-md hidden-sm col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+</layout>

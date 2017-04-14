@@ -1,0 +1,257 @@
+<layout>
+    <name>1_column_full</name>
+	<header>header6</header>
+	<footer>footer6</footer>
+	
+	<!-- Theme Color -->
+	<!-- Theme Color -->
+ <theme_color_header>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[]]></top_text_color>
+  <top_link_color><![CDATA[#a6a6a6]]></top_link_color>
+  <top_link_hover_color><![CDATA[#c0a692]]></top_link_hover_color>
+  <top_dropdown_background><![CDATA[]]></top_dropdown_background>
+  <top_dropdown_link><![CDATA[#2a2a2a]]></top_dropdown_link>
+  <top_dropdown_link_hover><![CDATA[#c0a692]]></top_dropdown_link_hover>
+  <top_dropdown_border><![CDATA[]]></top_dropdown_border>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text><![CDATA[]]></middle_text>
+  <search_background><![CDATA[]]></search_background>
+  <search_text_color><![CDATA[]]></search_text_color>
+  <search_link_color><![CDATA[]]></search_link_color>
+  <search_link_hover_color><![CDATA[]]></search_link_hover_color>
+  <search_input_color><![CDATA[]]></search_input_color>
+  <search_icon_color><![CDATA[]]></search_icon_color>
+  <search_dropdown_background><![CDATA[]]></search_dropdown_background>
+  <search_dropdown_hover_background><![CDATA[]]></search_dropdown_hover_background>
+  <search_dropdown_text_color><![CDATA[]]></search_dropdown_text_color>
+  <search_dropdown_text_hover_color><![CDATA[]]></search_dropdown_text_hover_color>
+  <cart_text_color><![CDATA[]]></cart_text_color>
+  <cart_price_color><![CDATA[#ff1237]]></cart_price_color>
+  <cart_icon_background><![CDATA[]]></cart_icon_background>
+  <cart_number_background><![CDATA[]]></cart_number_background>
+  <cart_number_text><![CDATA[]]></cart_number_text>
+  <menu_background><![CDATA[]]></menu_background>
+  <menu_background_hover><![CDATA[]]></menu_background_hover>
+  <menu_link_color><![CDATA[]]></menu_link_color>
+  <menu_link_hover_color><![CDATA[]]></menu_link_hover_color>
+  <menu_border_color><![CDATA[]]></menu_border_color>
+ </theme_color_header>
+ <theme_color_main>
+  <use_custom>1</use_custom>
+  <default_color>#c0a692</default_color>
+  <color><![CDATA[#ffffff]]></color>
+  <price_color><![CDATA[]]></price_color>
+  <link_color><![CDATA[#ffffff]]></link_color>
+  <link_hover_color><![CDATA[#c0a692]]></link_hover_color>
+  <button_color><![CDATA[]]></button_color>
+  <button_hover_color><![CDATA[]]></button_hover_color>
+  <button_background><![CDATA[]]></button_background>
+  <button_hover_background>#c0a692</button_hover_background>
+  <button_border_color><![CDATA[]]></button_border_color>
+  <button_border_hover_color>#c0a692</button_border_hover_color>
+  <button_one_color><![CDATA[]]></button_one_color>
+  <button_one_hover_color><![CDATA[]]></button_one_hover_color>
+  <button_one_background><![CDATA[]]></button_one_background>
+  <button_one_hover_background>#c0a692</button_one_hover_background>
+  <button_one_border><![CDATA[]]></button_one_border>
+  <button_one_border_hover>#c0a692</button_one_border_hover>
+  <button_two_color><![CDATA[]]></button_two_color>
+  <button_two_hover_color><![CDATA[]]></button_two_hover_color>
+  <button_two_background><![CDATA[#c0a692]]></button_two_background>
+  <button_two_hover_background><![CDATA[]]></button_two_hover_background>
+  <button_two_border><![CDATA[#c0a692]]></button_two_border>
+  <button_two_border_hover><![CDATA[]]></button_two_border_hover>
+ </theme_color_main>
+ <theme_color_footer>
+  <use_custom>0</use_custom>
+ </theme_color_footer>
+
+ <custom_style>
+  <style><![CDATA[]]></style>
+ </custom_style>
+
+    <!--  Blocks  -->
+    <block>
+        <name>block43</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[slider-eye watch-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+	
+    <block>
+        <name>block44</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top>75</padding_top>
+        <padding_bottom>28</padding_bottom>
+        <block_position>2</block_position>
+    </block>
+	
+    <block>
+        <name>block45</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_ring.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[136]]></padding_top>
+        <padding_bottom><![CDATA[136]]></padding_bottom>
+        <block_position>3</block_position>
+    </block>
+	
+	<block>
+        <name>block46</name>
+        <block_cols><![CDATA[6,6]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[100]]></padding_top>
+        <padding_bottom><![CDATA[47]]></padding_bottom>
+        <block_position>4</block_position>
+    </block>
+	
+	<block>
+        <name>block47</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[fashion-store]]></custom_class>
+        <background><![CDATA[#1f1f1f]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[100]]></padding_bottom>
+        <block_position>5</block_position>
+    </block>
+	
+	<block>
+        <name>block48</name>
+        <block_cols><![CDATA[8,4]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_ring4.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[135]]></padding_top>
+        <padding_bottom><![CDATA[135]]></padding_bottom>
+        <block_position>6</block_position>
+    </block>
+    <!--  Childs  -->
+    <child>
+        <block_name>block44-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Title New Arrival]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-title-new-arrival]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="title-content"><span>FEATURED PRODUCTS</span></h2>
+<h5>MOST OF POPULARA THIS WEEK</h5>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block45-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Jewelry Static Next Season]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-jewelry-static-next-season]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="text-colour-white link-colour-white">
+<h2>SEE WHAT IS</h2>
+<h1>HOT NEXT SEASON</h1>
+<a class="a-default">DISCOVER MORE</a>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block47-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Newsletter Type 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-newsletter-type2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="text-colour-white"><h2>STAY UP TO DATE</h2></div>
+<div class="text-colour-silver"><p>SIGN UP TO OUR NEWSLETTER FOR THE LATEST ON ALL THINGS SUITSUPPLY
+</p></div>
+<div class="newsletter-type2 col-md-6 col-md-push-3">
+        {{block type="newsletter/subscribe" name="footer.newsletter" as="footer.newsletter" template="newsletter/home-subscribe-type2.phtml"/}}
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block46-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Watch Promo Left New]]></banner_title>
+        <banner_filename><![CDATA[bg_new.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2 class="text-decoration">SALE</h2>
+<h1>50% OFF</h1>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[left]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"effect-two","animation":"fadeInLeft","animation_delay":"","text_colour":"text-colour-white","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block46-1</block_name>
+        <block_content><![CDATA[{{block type="mpanel/product_new" display_type="new_products" products_count="4" slider="1" count_per_row="2" title="New Arrival" product_ratio="4" auto_play="false" stop_hover="false" navigation="true" pagination="false" number_row="1" template="mgs/mpanel/products/new_products.phtml"}}]]></block_content>
+        <type>new_products</type>
+        <position>1</position>
+        <setting><![CDATA[{"title":"New Arrival","custom_class":"","animation":"fadeInRight","animation_delay":"","product_count":"4","view_mode":"grid","count_per_row":"2","product_ratio":"4","slider":{"active":"1","number_row":"1","auto":"false","stop_hover":"false","navigation":"true","pagination":"false"},"load_more":"0","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","price_colour":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block44-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"20","margin_bottom":"28"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+</layout>

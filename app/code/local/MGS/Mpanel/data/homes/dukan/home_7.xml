@@ -1,0 +1,324 @@
+<layout>
+    <name>1_column_full</name>
+	<header>header7</header>
+	<footer>footer8</footer>
+	
+	<!-- Theme Color -->
+	<!-- Theme Color -->
+ <theme_color_header>
+  <use_custom>0</use_custom>
+ </theme_color_header>
+ <theme_color_main>
+  <use_custom>0</use_custom>
+ </theme_color_main>
+ <theme_color_footer>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[]]></top_text_color>
+  <top_heading_color><![CDATA[]]></top_heading_color>
+  <top_link_color><![CDATA[]]></top_link_color>
+  <top_link_hover_color><![CDATA[]]></top_link_hover_color>
+  <top_icon_color><![CDATA[]]></top_icon_color>
+  <top_border_color><![CDATA[]]></top_border_color>
+  <top_input_background><![CDATA[]]></top_input_background>
+  <top_input_border><![CDATA[]]></top_input_border>
+  <top_input_color><![CDATA[]]></top_input_color>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text_color><![CDATA[]]></middle_text_color>
+  <middle_heading_color><![CDATA[]]></middle_heading_color>
+  <middle_link_color><![CDATA[]]></middle_link_color>
+  <middle_link_hover_color><![CDATA[#ca7379]]></middle_link_hover_color>
+  <middle_icon_color><![CDATA[]]></middle_icon_color>
+  <middle_border_color><![CDATA[]]></middle_border_color>
+  <middle_input_background><![CDATA[]]></middle_input_background>
+  <middle_input_border><![CDATA[]]></middle_input_border>
+  <middle_input_color><![CDATA[]]></middle_input_color>
+  <bottom_background><![CDATA[]]></bottom_background>
+  <bottom_text_color><![CDATA[]]></bottom_text_color>
+  <bottom_heading_color><![CDATA[]]></bottom_heading_color>
+  <bottom_link_color><![CDATA[]]></bottom_link_color>
+  <bottom_link_hover_color><![CDATA[]]></bottom_link_hover_color>
+  <bottom_icon_color><![CDATA[]]></bottom_icon_color>
+  <bottom_border_color><![CDATA[]]></bottom_border_color>
+ </theme_color_footer>
+
+ <custom_style>
+  <style><![CDATA[]]></style>
+ </custom_style>
+
+    <!--  Blocks  -->
+    <block>
+        <name>block50</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>0</block_position>
+    </block>
+	
+    <block>
+        <name>block51</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[newsletter.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top>75</padding_top>
+        <padding_bottom>80</padding_bottom>
+        <block_position>9</block_position>
+    </block>
+	
+    <block>
+        <name>block52</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[#222222]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[92]]></padding_top>
+        <padding_bottom><![CDATA[68]]></padding_bottom>
+        <block_position>10</block_position>
+    </block>
+	
+	<block>
+        <name>block53</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[fashion-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>2</block_position>
+    </block>
+	
+	<block>
+        <name>block54</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>3</block_position>
+    </block>
+	
+	<block>
+        <name>block55</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>6</block_position>
+    </block>
+	
+	<block>
+        <name>block56</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[fashion-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>8</block_position>
+    </block>
+	
+	<block>
+        <name>block78</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[text-center video-background]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[4.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[300]]></padding_top>
+        <padding_bottom><![CDATA[300]]></padding_bottom>
+        <block_position>5</block_position>
+    </block>
+	
+	<block>
+        <name>block79</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[parallax-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[2.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[300]]></padding_top>
+        <padding_bottom><![CDATA[300]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+	
+	<block>
+        <name>block80</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[parallax-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[3.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[300]]></padding_top>
+        <padding_bottom><![CDATA[300]]></padding_bottom>
+        <block_position>4</block_position>
+    </block>
+	
+	<block>
+        <name>block81</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[parallax-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[parallax_new3.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[300]]></padding_top>
+        <padding_bottom><![CDATA[300]]></padding_bottom>
+        <block_position>7</block_position>
+    </block>
+    <!--  Childs  -->
+    <child>
+        <block_name>block51-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Newsletter Type 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-newsletter-type2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="text-colour-white"><h2>STAY UP TO DATE</h2></div>
+<div class="text-colour-silver"><p>SIGN UP TO OUR NEWSLETTER FOR THE LATEST ON ALL THINGS SUITSUPPLY
+</p></div>
+<div class="newsletter-type2 col-md-6 col-md-push-3">
+        {{block type="newsletter/subscribe" name="footer.newsletter" as="footer.newsletter" template="newsletter/home-subscribe-type2.phtml"/}}
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block78-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Parallax Video Background]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-parallax-video-background]]></static_block_identifier>
+        <static_block_content><![CDATA[<div id="bg-video-player" class="player" 
+     data-property="{videoURL:'http://youtu.be/tDvBwPzJ7dY',containment:'.video-background',startAt:0,autoPlay:false,loop:true,opacity:1, ratio: 22/10, vol: 1,showControls:true,stopMovieOnBlur:false}">
+</div>
+<button class="btn-play" type="button"><em class="fa fa-play">&nbsp;</em></button>
+<button class="btn-pause btn-hide" type="button"><em class="fa fa-pause">&nbsp;</em></button>
+<div class="text-video-player text-colour-white">
+<p>&nbsp;</p>
+<p style="font-size: 16px;">Suspendisse et metus eu massa lobortis condimentum sed ut orci. Nullam viverra <br /> dapibus risus, eu tristique nisl sollicitudin at. Etiam iaculis 
+</p>
+</div>
+<div class="menu-video">
+<button class="btn-mute" type="button"><em class="fa fa-volume-off">&nbsp;</em></button>
+<button class="btn-volume" type="button"><em class="fa fa-volume-up">&nbsp;</em></button>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block79-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Parallax Block 01]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-parallax-block01]]></static_block_identifier>
+        <static_block_content><![CDATA[<h3>FOR THE ART OF GIVING</h3>
+<p>THE ADDED VALUE OF THE FIRST IMPRESION</p>
+<a href="#" class="a-default">SHOP NOW</a>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"pull-right text-center text-colour-white link-colour-white","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>8</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block80-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Parallax Block 02]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-parallax-block-02]]></static_block_identifier>
+        <static_block_content><![CDATA[<h4>SEE WHAT'S HOT</h4>
+<h1>NEXT <span class="color-theme">SEASON</span></h1>
+<a class="a-default">DISCOVER NEW ARRIVAL</a>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-left","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block81-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Parallax Block 03]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-parallax-block-03]]></static_block_identifier>
+        <static_block_content><![CDATA[<h5>UP TO 60% OFF</h5>
+<h2>IMPOSSIBLE IS NOTHING</h2>
+<a class="a-default">SHOP NOW</a>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center text-colour-white link-colour-white","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>8</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block52-0</block_name>
+        <block_content><![CDATA[{{block type="core/template" title="" user="magentosolution" count="3" truncate="200" template="mgs/mpanel/twitter_tweets.phtml"}}]]></block_content>
+        <type>twitter</type>
+        <position>1</position>
+        <setting><![CDATA[{"title":"","custom_class":"twitter-home text-colour-white link-colour-white text-center","animation":"fadeInRight","animation_delay":"","user":"magentosolution","count":"3","truncate":"200"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+</layout>

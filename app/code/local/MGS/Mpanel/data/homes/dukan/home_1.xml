@@ -1,0 +1,452 @@
+<layout>
+    <name>1_column_full</name>
+	<header>header5</header>
+	<footer>footer5</footer>
+	
+	<!-- Theme Color -->
+	<!-- Theme Color -->
+ <theme_color_header>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[]]></top_text_color>
+  <top_link_color><![CDATA[]]></top_link_color>
+  <top_link_hover_color><![CDATA[]]></top_link_hover_color>
+  <top_dropdown_background><![CDATA[]]></top_dropdown_background>
+  <top_dropdown_link><![CDATA[]]></top_dropdown_link>
+  <top_dropdown_link_hover><![CDATA[#2ecc71]]></top_dropdown_link_hover>
+  <top_dropdown_border><![CDATA[]]></top_dropdown_border>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text><![CDATA[]]></middle_text>
+  <search_background><![CDATA[]]></search_background>
+  <search_text_color><![CDATA[]]></search_text_color>
+  <search_link_color><![CDATA[]]></search_link_color>
+  <search_link_hover_color><![CDATA[]]></search_link_hover_color>
+  <search_input_color><![CDATA[]]></search_input_color>
+  <search_icon_color><![CDATA[]]></search_icon_color>
+  <search_dropdown_background><![CDATA[]]></search_dropdown_background>
+  <search_dropdown_hover_background><![CDATA[]]></search_dropdown_hover_background>
+  <search_dropdown_text_color><![CDATA[]]></search_dropdown_text_color>
+  <search_dropdown_text_hover_color><![CDATA[]]></search_dropdown_text_hover_color>
+  <cart_text_color><![CDATA[]]></cart_text_color>
+  <cart_price_color><![CDATA[]]></cart_price_color>
+  <cart_icon_background><![CDATA[]]></cart_icon_background>
+  <cart_number_background><![CDATA[]]></cart_number_background>
+  <cart_number_text><![CDATA[]]></cart_number_text>
+  <menu_background><![CDATA[]]></menu_background>
+  <menu_background_hover><![CDATA[]]></menu_background_hover>
+  <menu_link_color><![CDATA[]]></menu_link_color>
+  <menu_link_hover_color><![CDATA[]]></menu_link_hover_color>
+  <menu_border_color><![CDATA[]]></menu_border_color>
+ </theme_color_header>
+ <theme_color_main>
+  <use_custom>1</use_custom>
+  <default_color>#2ecc71</default_color>
+  <color><![CDATA[]]></color>
+  <price_color><![CDATA[]]></price_color>
+  <link_color><![CDATA[]]></link_color>
+  <link_hover_color><![CDATA[#2ecc71]]></link_hover_color>
+  <button_color><![CDATA[]]></button_color>
+  <button_hover_color><![CDATA[]]></button_hover_color>
+  <button_background><![CDATA[]]></button_background>
+  <button_hover_background>#2ecc71</button_hover_background>
+  <button_border_color><![CDATA[]]></button_border_color>
+  <button_border_hover_color>#2ecc71</button_border_hover_color>
+  <button_one_color><![CDATA[]]></button_one_color>
+  <button_one_hover_color><![CDATA[]]></button_one_hover_color>
+  <button_one_background><![CDATA[]]></button_one_background>
+  <button_one_hover_background>#2ecc71</button_one_hover_background>
+  <button_one_border><![CDATA[]]></button_one_border>
+  <button_one_border_hover>#2ecc71</button_one_border_hover>
+  <button_two_color><![CDATA[]]></button_two_color>
+  <button_two_hover_color><![CDATA[]]></button_two_hover_color>
+  <button_two_background><![CDATA[#2ecc71]]></button_two_background>
+  <button_two_hover_background><![CDATA[]]></button_two_hover_background>
+  <button_two_border><![CDATA[#2ecc71]]></button_two_border>
+  <button_two_border_hover><![CDATA[]]></button_two_border_hover>
+ </theme_color_main>
+ <theme_color_footer>
+  <use_custom>0</use_custom>
+ </theme_color_footer>
+
+ <custom_style>
+  <style><![CDATA[]]></style>
+ </custom_style>
+
+    <!--  Blocks  -->
+    <block>
+        <name>block57</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[slider-eye watch-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+	
+    <block>
+        <name>block58</name>
+        <block_cols><![CDATA[4,4,4]]></block_cols>
+        <block_class><![CDATA[["col-sm-4 col-xs-12","col-sm-4 col-xs-12","col-sm-4 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[eyewear-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top>100</padding_top>
+        <padding_bottom>87</padding_bottom>
+        <block_position>2</block_position>
+    </block>
+	
+    <block>
+        <name>block59</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[eyewear-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_eye1.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[47]]></padding_bottom>
+        <block_position>3</block_position>
+    </block>
+	
+	<block>
+        <name>block60</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[100]]></padding_top>
+        <padding_bottom><![CDATA[100]]></padding_bottom>
+        <block_position>4</block_position>
+    </block>
+	
+	<block>
+        <name>block61</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[eyewear-store]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_eye2.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[47]]></padding_bottom>
+        <block_position>5</block_position>
+    </block>
+	
+	<block>
+        <name>block62</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[110]]></padding_bottom>
+        <block_position>6</block_position>
+    </block>
+	
+	<block>
+        <name>block63</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_testtimo1.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[92]]></padding_bottom>
+        <block_position>7</block_position>
+    </block>
+    <!--  Childs  -->
+    <child>
+        <block_name>block58-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eyewear Shipping Block 1]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eyewear-shipping-block-1]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><a><img class="img-responsive" src="{{media url="wysiwyg/icon_eye1.png"}}" alt="" /></a></div>
+<h4>FREE SHIPPING</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block58-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eyewear Shipping Block 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eyewear-shipping-block-2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><a><img class="img-responsive" src="{{media url="wysiwyg/icon_eye2.png"}}" alt="" /></a></div>
+<h4>NEED ASSISTANCE</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInDown","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block58-2</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eyewear Shipping Block 3]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eyewear-shipping-block-3]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><a><img class="img-responsive" src="{{media url="wysiwyg/icon_eye3.png"}}" alt="" /></a></div>
+<h4>FREE RETURNS</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block59-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eye Title Best Men]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eye-title-best-men]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="big-title-eye">BEST MEN COLLECTION</h2>
+<h4 class="title-eye"><span>MOST  OF POPULAR THIS WEEK</span></h4>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center text-colour-white col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block61-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eye Title Best Women]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eye-title-best-women]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="big-title-eye">TOP WOMEN COLLECTION</h2>
+<h4 class="title-eye"><span>MOST  OF POPULAR THIS WEEK</span></h4>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center text-colour-white col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block62-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eye Title Blog]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eye-title-blog]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="big-title-eye">LAST BLOGS</h2>
+<h4 class="title-eye"><span>FOLLOW OUR UPDATES</span></h4>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block62-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Link To Blog]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-link-to-blog]]></static_block_identifier>
+        <static_block_content><![CDATA[<a href="http://www.magesolution.com/dukan/index.php/blog" class="a-default">VIEW ALL NEWS</a>]]></static_block_content>
+        <type>static</type>
+        <position>5</position>
+        <setting><![CDATA[{"custom_class":"text-center col-sm-12 col-xs-12","animation":"","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block63-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eye Title Testimonial]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eye-title-testimonial]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="big-title-eye">WHAT CLIENTS SAID</h2>
+<h4 class="title-eye"><span>GREAT TESTIMONIALS FROM HAPPY CLIENT</span></h4>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center text-colour-white col-sm-12 col-xs-12","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block60-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Eyewear Store Video]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-eyewear-store-video]]></static_block_identifier>
+        <static_block_content><![CDATA[<img class="img-responsive"  data-toggle="modal" data-target=".modal-video" src="{{media url="wysiwyg/bg_video.jpg"}}" alt="" />
+<div class="modal fade modal-video" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+<iframe height="500" src="https://www.youtube.com/embed/Se5Uo1tfsGg?list=PLsx6WRTaay2Z5SLzql9iFyFqKzgeDM5n-" allowfullscreen></iframe>
+      </div>
+<button type="button" class="btn-dismiss" data-dismiss="modal"><em class="fa fa-times">&nbsp;</em></button>
+    </div>
+  </div>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-sm col-xs-12","animation":"","animation_delay":""}]]></setting>
+        <col>6</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block60-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Eye Banner Center Page1]]></banner_title>
+        <banner_filename><![CDATA[banner_eye1.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2 class="text-decoration">MEN'S</h2>
+<h3>COLLECTION</h3>
+<br />
+<a class="a-default">SHOP NOW</a>
+<p></p>
+<p></p>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[bottom-center]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"effect-two col-sm-6  hidden-xs","animation":"","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>3</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block60-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Eye Banner Center Page2]]></banner_title>
+        <banner_filename><![CDATA[banner_eye2.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2 class="text-decoration">WOMEN'S</h2>
+<h3>COLLECTIONS</h3>
+<br />
+<a class="a-default">SHOP NOW</a>
+<p></p>
+<p></p>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[bottom-center]]></banner_text_align>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"effect-two col-sm-6 hidden-xs","animation":"","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>3</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block31-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"55","margin_bottom":"55"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block61-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"55","margin_bottom":"55"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block63-0</block_name>
+        <block_content><![CDATA[{{block type="testimonial/testimonial" template="mgs/testimonial/view.phtml" view_mode="grid" title="" item_count="3"}}]]></block_content>
+        <type>testimonials</type>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"text-center text-colour-white col-md-push-2 col-sm-12 col-xs-12","animation":"fadeInRight","animation_delay":"","title":"","item_count":"3","view_mode":"grid"}]]></setting>
+        <col>8</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block62-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"23","margin_bottom":"23"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block62-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"23","margin_bottom":"23"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block63-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"23","margin_bottom":"10"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block58-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-lg hidden-md hidden-sm col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block58-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-lg hidden-md hidden-sm col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+</layout>

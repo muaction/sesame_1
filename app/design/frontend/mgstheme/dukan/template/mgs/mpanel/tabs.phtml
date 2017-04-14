@@ -1,0 +1,98 @@
+<?php $tabs = $this->getTabs(); $tabs = explode(',', $tabs) ?>
+<?php $catId = '' ?>
+<?php if($this->getCategoryId()!=''): ?>
+	<?php $catId = $this->getCategoryId() ?>
+<?php endif ?>
+<div id="product_tabs<?php echo $catId ?>" class="tabbable tabs tabs-style-flip tabs-product-attributes">
+	<ul id="attribute-tabs<?php echo $catId ?>" class="nav nav-tabs tab-products" role="tablist">
+		<?php $i=0; foreach($tabs as $_tab): $i++?>
+			<li class="attribute-title-<?php echo $i ?><?php if($i==1): ?> active<?php endif ?>"  role="presentation">
+				<a href="#box-<?php echo $_tab ?><?php echo $catId ?>" role="tab" data-toggle="tab" aria-expanded="false">
+					<span><?php echo $this->helper('mpanel')->changeTabTitle($_tab, $this->getData()) ?></span>
+				</a>
+			</li>
+		<?php endforeach ?>
+		<?php $totalatr = $i; ?>
+	</ul>
+	<script type="text/javascript">
+		if(mgsjQuery(window).width() < 768) {
+			initSliderTestimonials('attribute-tabs<?php echo $catId ?>', 1,false,false,true,false);
+			var flagat = 1;
+			mgsjQuery('#attribute-tabs<?php echo $catId ?> .owl-controls .owl-next').click(function(){
+				if(flagat < <?php echo $totalatr ?>){
+					flagat++;
+					tabAttributeChange();
+				}else{
+					flagat = 1;
+					tabAttributeChange();
+				}
+			});
+			mgsjQuery('#attribute-tabs<?php echo $catId ?> .owl-controls .owl-prev').click(function(){
+				if(flagat == 1){
+					flagat = <?php echo $totalatr ?>;
+					tabAttributeChange();
+				}else{
+					flagat--;
+					tabAttributeChange();
+				}
+			});
+			function tabAttributeChange(){
+				mgsjQuery('#attribute-tabs-content-<?php echo $catId ?> > .tab-pane').removeClass('active');
+				mgsjQuery('#attribute-tabs<?php echo $catId ?> li').removeClass('active');
+				mgsjQuery('#attribute-tabs-content-<?php echo $catId ?> .box-attribute'+flagat).addClass('active');
+				mgsjQuery('#attribute-tabs<?php echo $catId ?> .attribute-title-'+flagat).addClass('active');
+			}
+		}
+	</script>
+	<div class="col-md-12">
+	<div class="content-wrap products row tab-content" id="attribute-tabs-content-<?php echo $catId ?>">
+		<?php $i=0; foreach($tabs as $_tab): $i++;?>
+			<div  role="tabpanel" class="<?php echo "box-attribute".$i ?> tab-pane fade <?php if($i==1): ?> active in<?php endif ?> " id="<?php echo "box-".$_tab ?><?php echo $catId ?>">
+				<?php if($_tab == 'sale_products' || $_tab == 'rate_products'): ?>
+					<?php if($_tab == 'sale_products'): ?>
+						<?php $block = 'mpanel/product_sale' ?>
+					<?php else: ?>
+						<?php $block = 'mpanel/product_rate' ?>
+					<?php endif ?>
+					<?php 
+						$html = $this->getLayout()
+									->createBlock($block)
+									->setTitle('')
+									->setProductsCount($this->getProductsCount())
+									->setSlider($this->getSlider())
+									->setProductRatio($this->getProductRatio())
+									->setCategoryId($this->getCategoryId())
+									->setCountPerRow($this->getCountPerRow())
+									->setNumberRow($this->getNumberRow())
+									->setAutoPlay($this->getAutoPlay())
+									->setStopHover($this->getStopHover())
+									->setNavigation($this->getNavigation())
+									->setPagination($this->getPagination())
+									->setTemplate('mgs/mpanel/products/'.$_tab.'.phtml')
+									->toHtml();
+					?>
+				<?php else: ?>
+					<?php 
+						$html = $this->getLayout()
+									->createBlock('mpanel/products')
+									->setTitle('')
+									->setProductsCount($this->getProductsCount())
+									->setSlider($this->getSlider())
+									->setProductRatio($this->getProductRatio())
+									->setCategoryId($this->getCategoryId())
+									->setCountPerRow($this->getCountPerRow())
+									->setNumberRow($this->getNumberRow())
+									->setAutoPlay($this->getAutoPlay())
+									->setStopHover($this->getStopHover())
+									->setNavigation($this->getNavigation())
+									->setPagination($this->getPagination())
+									->setTemplate('mgs/mpanel/products/'.$_tab.'.phtml')
+									->toHtml();
+					?>
+				<?php endif ?>
+				<?php echo $html; ?>
+			</div>
+		<?php endforeach; ?>
+	</div>
+	</div>
+</div>

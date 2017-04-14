@@ -1,0 +1,533 @@
+<layout>
+    <name>1_column_full</name>
+	<header>header3</header>
+	<footer>footer3</footer>
+	
+	<!-- Theme Color -->
+	<!-- Theme Color -->
+ <theme_color_header>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[#ffffff]]></top_text_color>
+  <top_link_color><![CDATA[#ffffff]]></top_link_color>
+  <top_link_hover_color><![CDATA[#ca7379]]></top_link_hover_color>
+  <top_dropdown_background><![CDATA[]]></top_dropdown_background>
+  <top_dropdown_link><![CDATA[]]></top_dropdown_link>
+  <top_dropdown_link_hover><![CDATA[]]></top_dropdown_link_hover>
+  <top_dropdown_border><![CDATA[]]></top_dropdown_border>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text><![CDATA[]]></middle_text>
+  <search_background><![CDATA[]]></search_background>
+  <search_text_color><![CDATA[]]></search_text_color>
+  <search_link_color><![CDATA[]]></search_link_color>
+  <search_link_hover_color><![CDATA[]]></search_link_hover_color>
+  <search_input_color><![CDATA[]]></search_input_color>
+  <search_icon_color><![CDATA[]]></search_icon_color>
+  <search_dropdown_background><![CDATA[]]></search_dropdown_background>
+  <search_dropdown_hover_background><![CDATA[]]></search_dropdown_hover_background>
+  <search_dropdown_text_color><![CDATA[]]></search_dropdown_text_color>
+  <search_dropdown_text_hover_color><![CDATA[]]></search_dropdown_text_hover_color>
+  <cart_text_color><![CDATA[]]></cart_text_color>
+  <cart_price_color><![CDATA[]]></cart_price_color>
+  <cart_icon_background><![CDATA[]]></cart_icon_background>
+  <cart_number_background><![CDATA[]]></cart_number_background>
+  <cart_number_text><![CDATA[]]></cart_number_text>
+  <menu_background><![CDATA[]]></menu_background>
+  <menu_background_hover><![CDATA[]]></menu_background_hover>
+  <menu_link_color><![CDATA[]]></menu_link_color>
+  <menu_link_hover_color><![CDATA[]]></menu_link_hover_color>
+  <menu_border_color><![CDATA[]]></menu_border_color>
+ </theme_color_header>
+ <theme_color_main>
+  <use_custom>0</use_custom>
+ </theme_color_main>
+ <theme_color_footer>
+  <use_custom>1</use_custom>
+  <top_background><![CDATA[]]></top_background>
+  <top_text_color><![CDATA[]]></top_text_color>
+  <top_heading_color><![CDATA[]]></top_heading_color>
+  <top_link_color><![CDATA[]]></top_link_color>
+  <top_link_hover_color><![CDATA[]]></top_link_hover_color>
+  <top_icon_color><![CDATA[]]></top_icon_color>
+  <top_border_color><![CDATA[]]></top_border_color>
+  <top_input_background><![CDATA[]]></top_input_background>
+  <top_input_border><![CDATA[]]></top_input_border>
+  <top_input_color><![CDATA[]]></top_input_color>
+  <middle_background><![CDATA[]]></middle_background>
+  <middle_text_color><![CDATA[]]></middle_text_color>
+  <middle_heading_color><![CDATA[]]></middle_heading_color>
+  <middle_link_color><![CDATA[#8f8f8f]]></middle_link_color>
+  <middle_link_hover_color><![CDATA[#ca7379]]></middle_link_hover_color>
+  <middle_icon_color><![CDATA[]]></middle_icon_color>
+  <middle_border_color><![CDATA[]]></middle_border_color>
+  <middle_input_background><![CDATA[]]></middle_input_background>
+  <middle_input_border><![CDATA[]]></middle_input_border>
+  <middle_input_color><![CDATA[]]></middle_input_color>
+  <bottom_background><![CDATA[]]></bottom_background>
+  <bottom_text_color><![CDATA[]]></bottom_text_color>
+  <bottom_heading_color><![CDATA[]]></bottom_heading_color>
+  <bottom_link_color><![CDATA[]]></bottom_link_color>
+  <bottom_link_hover_color><![CDATA[]]></bottom_link_hover_color>
+  <bottom_icon_color><![CDATA[]]></bottom_icon_color>
+  <bottom_border_color><![CDATA[]]></bottom_border_color>
+ </theme_color_footer>
+
+ <custom_style>
+  <style><![CDATA[]]></style>
+ </custom_style>
+
+    <!--  Blocks  -->
+    <block>
+        <name>block9</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+	
+    <block>
+        <name>block10</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top>75</padding_top>
+        <padding_bottom>114</padding_bottom>
+        <block_position>2</block_position>
+    </block>
+	
+    <block>
+        <name>block11</name>
+        <block_cols><![CDATA[5,7]]></block_cols>
+        <block_class><![CDATA[["hidden-sm hidden-xs","col-sm-12 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_spring2.jpg]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>1</background_cover>
+        <parallax>1</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[173]]></padding_top>
+        <padding_bottom><![CDATA[212]]></padding_bottom>
+        <block_position>3</block_position>
+    </block>
+	
+	<block>
+        <name>block12</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[#f8f8f8]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[84]]></padding_top>
+        <padding_bottom><![CDATA[90]]></padding_bottom>
+        <block_position>4</block_position>
+    </block>
+	
+	<block>
+        <name>block13</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[75]]></padding_top>
+        <padding_bottom><![CDATA[100]]></padding_bottom>
+        <block_position>6</block_position>
+    </block>
+	
+	<block>
+        <name>block14</name>
+        <block_cols><![CDATA[4,4,4]]></block_cols>
+        <block_class><![CDATA[["col-sm-4 col-xs-12","col-sm-4 col-xs-12","col-sm-4 col-xs-12"]]]></block_class>
+        <custom_class><![CDATA[text-center]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_default3.jpg]]></background_image>
+        <background_repeat>1</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[96]]></padding_top>
+        <padding_bottom><![CDATA[90]]></padding_bottom>
+        <block_position>7</block_position>
+    </block>
+	
+	<block>
+        <name>block15</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[bg_new_deals.jpg]]></background_image>
+        <background_repeat>1</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>5</block_position>
+    </block>
+	
+	<block>
+        <name>block16</name>
+        <block_cols><![CDATA[]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>0</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>8</block_position>
+    </block>
+	
+	<block>
+        <name>block17</name>
+        <block_cols><![CDATA[4,4,4]]></block_cols>
+        <block_class><![CDATA[["hidden-sm hidden-xs","col-sm-12 col-xs-12","hidden-sm hidden-xs"]]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>9</block_position>
+    </block>
+	
+	<block>
+        <name>block18</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[text-center]]></custom_class>
+        <background><![CDATA[#f8f8f8]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[60]]></padding_top>
+        <padding_bottom><![CDATA[72]]></padding_bottom>
+        <block_position>10</block_position>
+    </block>
+	
+	<block>
+        <name>block19</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[30]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>1</block_position>
+    </block>
+	
+	<block>
+        <name>block76</name>
+        <block_cols><![CDATA[12]]></block_cols>
+        <block_class><![CDATA[]]></block_class>
+        <custom_class><![CDATA[]]></custom_class>
+        <background><![CDATA[]]></background>
+        <background_image><![CDATA[]]></background_image>
+        <background_repeat>0</background_repeat>
+        <background_cover>0</background_cover>
+        <parallax>0</parallax>
+        <fullwidth>1</fullwidth>
+        <padding_top><![CDATA[]]></padding_top>
+        <padding_bottom><![CDATA[]]></padding_bottom>
+        <block_position>11</block_position>
+    </block>
+    <!--  Childs  -->
+    <child>
+        <block_name>block10-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Title Bestseller]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-title-bestseller]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="title-content"><span>OUR BESTSELLER</span></h2>
+<h5 class="color-gray">MOST OF POPULARA THIS WEEK</h5>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block11-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Collection Spring]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-collection-spring]]></static_block_identifier>
+        <static_block_content><![CDATA[<h1>COLLECTION SPRING <span class="color-theme">[SUMMER 2015]</span></h1>
+<p>&nbsp;</p>
+<p style="font-size: 16px;"><em>Women and children support local lasting change urban catalytic effect medical measures. New approaches, social worker many voices youth democracy. Liberal governance, global citizens growth revitalize fairness. Mobilize; Bono; Arab Spring, cooperation human being grantees. Inclusive capitalism design thinking.</em></p>
+<p>&nbsp;</p>
+<p><a class="a-primary" href="#">SHOP NOW</a></p>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block13-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Newsletter]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-newsletter]]></static_block_identifier>
+        <static_block_content><![CDATA[<h2 class="title-content"><span>SIGN UP OUR NEWSLETTER & PROMOTIONS</span></h2>
+<div class="default-newsletter col-md-6 col-md-push-3 col-sm-12 col-xs-12">
+        {{block type="newsletter/subscribe" name="footer.newsletter" as="footer.newsletter" template="newsletter/home-subscribe.phtml"/}}
+<p class="text-left color-gray"><em>We don't use spam emails</em></p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"text-center","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block14-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Shipping Block]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-shipping-block]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon1.png"}}" alt="" /></div>
+<h4>FREE SHIPPING</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInRight","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block14-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Shipping Block 2]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-shipping-block2]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon2.png"}}" alt="" /></div>
+<h4>NEED ASSISTANCE?</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInUp","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block14-2</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Shipping Block 3]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-shipping-block3]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="policy">
+<div class="policy-img"><img class="img-responsive" src="{{media url="wysiwyg/icon3.png"}}" alt="" /></div>
+<h4>FREE RETURNS</h4>
+<p> Praesent aliquet scelerisque eleifend. Mauris blandit efficitur commodo.</p>
+</div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"","animation":"fadeInLeft","animation_delay":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block18-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <static_block_title><![CDATA[Dukan Default Abouts Block]]></static_block_title>
+        <static_block_identifier><![CDATA[dukan-default-abouts-block]]></static_block_identifier>
+        <static_block_content><![CDATA[<div class="about-block">
+<p class="img-logo"><img class="img-responsive" src="{{media url="wysiwyg/logo_black.png"}}" alt="" /></p>
+<p class="color-gray">Dukan &ndash; Multipurpose Magento theme is designed &amp; developed based on MGS Front-End Builder and a lot of other useful Magento extensions, furthermore it is also designed with multi concepts to bring multipurpose websites for client selection. With Cetus, You can setup and configure it for your supermarket store/ big store/ medium store/ small store.</p>
+<a class="a-primary" href="http://mgs.arrowhitech.net/dukan/index.php/about-us/">READ OUR HISTORY</a></div>]]></static_block_content>
+        <type>static</type>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"col-md-push-2 col-sm-12 col-xs-12","animation":"fadeInUp","animation_delay":""}	]]></setting>
+        <col>8</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block17-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Default Left Social Block]]></banner_title>
+        <banner_filename><![CDATA[banner_social4.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[left]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"no-padding","animation":"fadeInLeft","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block17-2</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Default Right Social Block]]></banner_title>
+        <banner_filename><![CDATA[banner_social3.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[left]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"no-padding","animation":"fadeInRight","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block19-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Default Promo 1]]></banner_title>
+        <banner_filename><![CDATA[banner_df01.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2><span class="color-pink">.</span>SHOES<span class="color-pink">.</span></h2>
+<a class="a-default pull-right" href="#">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[bottom-right]]></banner_text_align>
+        <position>1</position>
+        <setting><![CDATA[{"custom_class":"col-sm-6 col-xs-12 effect-one","animation":"fadeInLeft","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>4</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block19-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Default Promo 2]]></banner_title>
+        <banner_filename><![CDATA[banner_df02.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2><span>.</span>EYEWEAR<span>.</span></h2>
+<a class="a-default pull-right" href="#">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[bottom-right]]></banner_text_align>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-sm col-xs-12 effect-one ","animation":"fadeInUp","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>4</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block19-0</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Default Promo 3]]></banner_title>
+        <banner_filename><![CDATA[banner_df03.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<h2><span class="color-pink">.</span>WATCHES<span class="color-pink">.</span></h2>
+<a class="a-default pull-right" href="#">SHOP NOW</a>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[bottom-right]]></banner_text_align>
+        <position>3</position>
+        <setting><![CDATA[{"custom_class":"col-sm-6 hidden-xs effect-one","animation":"fadeInRight","animation_delay":"","text_colour":"text-colour-white","link_colour":"link-colour-white","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>4</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block17-1</block_name>
+        <block_content><![CDATA[{{block type="promobanners/promobanners" banner_id="%s" template="mgs/promobanners/banner.phtml"}}]]></block_content>
+        <type>promo_banner</type>
+        <banner_title><![CDATA[Dukan Default Social Block]]></banner_title>
+        <banner_filename><![CDATA[bg_social_df.jpg]]></banner_filename>
+        <banner_url>#</banner_url>
+        <banner_content><![CDATA[<div class="social-link">
+<ul>
+<li><a href="#"><em class="fa fa-facebook"></em></a></li>
+<li><a href="#"><em class="fa fa-twitter"></em></a></li>
+<li><a href="#"><em class="fa fa-google-plus"></em></a></li>
+<li><a href="#"><em class="fa fa-youtube"></em></a></li>
+<li><a href="#"><em class="fa fa-linkedin"></em></a></li>
+</ul></div>]]></banner_content>
+        <banner_button><![CDATA[]]></banner_button>
+        <banner_text_align><![CDATA[center]]></banner_text_align>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"no-padding","animation":"fadeInUp","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"%s"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+    <child>
+        <block_name>block10-0</block_name>
+        <block_content><![CDATA[{{block type="mpanel/products" products_count="8" slider="0" count_per_row="4" title="" product_ratio="4" load_more="1" template="mgs/mpanel/products/hot_products.phtml"}}]]></block_content>
+        <type>hot</type>
+        <position>3</position>
+        <setting><![CDATA[{"title":"","custom_class":"","animation":"fadeInUp","animation_delay":"","product_count":"8","view_mode":"grid","count_per_row":"4","product_ratio":"4","slider":{"active":"0","number_row":"","auto":"false","stop_hover":"false","navigation":"false","pagination":"false"},"load_more":"1","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","price_colour":""}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block10-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"col-sm-12 col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"20","margin_bottom":"28"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block14-0</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-lg hidden-md hidden-sm col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+	<child>
+        <block_name>block14-1</block_name>
+        <block_content><![CDATA[]]></block_content>
+        <type>separator</type>
+        <position>2</position>
+        <setting><![CDATA[{"custom_class":"hidden-lg hidden-md hidden-sm col-xs-12","separator_type":"white-space","border_type":"full","border_style":"style1","border_icon":"","text_content":"","margin_top":"15","margin_bottom":"15"}]]></setting>
+        <col>12</col>
+        <custom_class><![CDATA[]]></custom_class>
+    </child>
+	
+</layout>
