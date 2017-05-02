@@ -232,3 +232,13 @@
         Deny from all
 
     </Files>
+
+RewriteCond %{HTTP_HOST} sesame\.dev [NC]
+RewriteRule .* - [E=MAGE_RUN_CODE:vietnam]
+RewriteCond %{HTTP_HOST} sesame\.dev [NC]
+RewriteRule .* - [E=MAGE_RUN_TYPE:store]
+
+RewriteCond %{HTTP_HOST} en\.sesame\.dev [NC]
+RewriteRule .* - [E=MAGE_RUN_CODE:default]
+RewriteCond %{HTTP_HOST} en\.sesame\.dev [NC]
+RewriteRule .* - [E=MAGE_RUN_TYPE:store]

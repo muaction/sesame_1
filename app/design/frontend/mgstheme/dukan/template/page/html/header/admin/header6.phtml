@@ -31,7 +31,7 @@
 <?php if(!(Mage::app()->getRequest()->getControllerName() == 'index' && Mage::app()->getRequest()->getActionName() == 'index' && Mage::app()->getRequest()->getModuleName() == 'cms')): ?>
 <?php if($this->getLayout()->createBlock('cms/block')->setBlockId('dukan_bg_breadcrumb')->toHtml()): ?>
 <div class="img-breadcrumb">
-	<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_bg_breadcrumb')-setCanEdit(1)->toHtml(); ?>
+	<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('dukan_bg_breadcrumb')->setCanEdit(1)->toHtml(); ?>
 </div>
 <?php else: ?>
 <div class="no-static">
